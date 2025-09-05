@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         const password = document.getElementById('password').value.trim();
         
         // Verificar se o usuário é o nome e a senha é a data de aniversário
-        if (username.toLowerCase() === 'tanaka lindo' && password === '02 de agosto') {
+        if (username.toLowerCase() === 'tanaka lindo' && password === '02082008') {
             showAlert('Login realizado com sucesso!', 'success');
         } else {
             showAlert('Usuário ou senha incorretos. Tente novamente.', 'error');
